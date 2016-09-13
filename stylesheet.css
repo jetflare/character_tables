@@ -32,3 +32,11 @@ th, td {
 .tableHeader {
     font-weight: bold;
 }
+
+.upperCase {
+    color: hotpink;
+}
+
+.lowerCase {
+    color: violet;
+}
