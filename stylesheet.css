@@ -12,6 +12,7 @@ h1 {
 p {}
 
 table {
+    margin: 50px;
     border-collapse: collapse;
 }
 
@@ -30,4 +31,12 @@ th, td {
 
 .tableHeader {
     font-weight: bold;
+}
+
+.upperCase {
+    color: hotpink;
+}
+
+.lowerCase {
+    color: violet;
 }
