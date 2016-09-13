@@ -17,7 +17,7 @@ var col2 = document.createElement('td')
 col2.innerHTML = greekHeaderArray[1]
 greekHeader.appendChild(col2)
 
-function appendToGreekTable(index){
+function appendToGreekTable(item,index){
 	var greekRow = document.createElement('tr')
 	greekTable.appendChild(greekRow)
 	
