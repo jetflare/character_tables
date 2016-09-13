@@ -1,12 +1,6 @@
 body {
     background-color: black;
     font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    /* Might want to try font-family: "Gyre", Helvetica, Arial, Sans-serif */
-    /* The font in use now is taken from http://www.digitalspy.com/gaming/feature/a805688/everything-we-learned-about-final-fantasy-xv-from-watching-kingsglaive/ */
-    /* The font in the above webpage is identified as ITC Avant Garde by http://www.identifont.com/index.html */
-    /* Look here for details on fontsetting: http://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html */
-    /* http://www.webdesigndev.com/16-gorgeous-web-safe-fonts-to-use-with-css/ */
-    font-size:150%;
     color:springgreen;
 }
 
@@ -17,7 +11,9 @@ h1 {
 
 p {}
 
-table {}
+table {
+    font-size:150%;
+}
 
 td {
     text-align:center;
