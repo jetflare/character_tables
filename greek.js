@@ -36,4 +36,6 @@ function appendToGreekTable(index){
 
 greekUpperCase.forEach(appendToGreekTable)
 
-document.getElementById('characterTable').appendChild(greekTable)
+function loadGreekTable(){
+	document.getElementById('characterTable').appendChild(greekTable)
+}
