@@ -1,5 +1,6 @@
 var greekTable = document.createElement('table')
 var greekHeader = document.createElement('tr')
+greekHeader.className = "tableHeader"
 greekTable.appendChild(greekHeader)
 
 var greekHeaderArray = ["Letter","Name"]
