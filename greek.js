@@ -24,10 +24,12 @@ function appendToGreekTable(item,index){
 	
 	var col1 = document.createElement('td')
 	greekRow.appendChild(col1)
+	col1.className = "upperCase"
 	col1.innerHTML = greekUpperCase[index]
 	
 	var col2 = document.createElement('td')
 	greekRow.appendChild(col2)
+	col2.className = "lowerCase"
 	col2.innerHTML = greekLowerCase[index]
 	
 	var col3 = document.createElement('td')
